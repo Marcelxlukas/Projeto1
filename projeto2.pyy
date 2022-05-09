@@ -1,0 +1,13 @@
+print('Vamos te fazer algumas perguntas para escolher o melhor destino pra você')
+
+qtpassagem = input('Quantas passagens serão necessarias? ')
+
+frio_ou_calor = input('Você prefere frio ou calor? ')
+
+primeira_pergunta = input('Ok, escolha um desses destinos: EUA ou CND ')
+
+if primeira_pergunta == 'EUA':
+    print(f'Ok, logo enviaremos um email confirmando a compra de {qtpassagem} passagens, obrigado por voar com a gente.')
+
+if primeira_pergunta == 'CND':
+       print(f'Ok, logo enviaremos um email confirmando a compra de {qtpassagem} passagens obrigado por voar com a gentE.')
